@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Poppins', sans-serif;
+	box-sizing: border-box;
+}
+
+button:focus, input:focus, textarea:focus {
+	outline: 0;
+}
+
+.blog_wrapper {
+	padding: 80px 15px;
+}
+
+.blog_wrap {
+	max-width: 800px;
+	width: 100%;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	background: rgb(2 45 98 / 8%);
+	border-radius: 6px;
+	overflow: hidden;
+	transition: .3s;
+}
+
+.blog_wrap:hover {
+	transform: translateY(-10px);
+}
+
+.blog_wrap img {
+	width: 300px;
+	height: 300px;
+	object-fit: cover;
+}
+
+.blog_text {
+	padding-left: 30px;
+}
+
+.blog_text span {
+	font-size: 15px;
+	color: #F16261;
+	font-weight: 500;
+	margin-right: 20px;
+}
+
+.blog_text span i {
+	margin-right: 10px;
+}
+
+.blog_text h3 {
+    font-size: 22px;
+    font-weight: 700;
+    color: #222222;
+    line-height: 28px;
+    margin-top: 15px;
+}
+
+.blog_text p {
+	font-size: 14px;
+	margin: 10px 0 15px 0;
+}
+
+.make_btn {
+	background: linear-gradient(96.49deg, #F16262 0%, #3200FF 102.71%);
+	padding: 14px 25px;
+	font-size: 16px;
+	line-height: 20px;
+	display: inline-flex;
+	border-radius: 6px;
+	font-weight: 500;
+	text-transform: capitalize;
+	flex-shrink: 0;
+	transition: .3s;
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.make_btn:hover {
+	background: linear-gradient(96.49deg, #3200FF 0%, #F16262 102.71%);
+}
+
+
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (max-width: 1399px){
+	
+}
+@media (min-width: 1400px) { 
+	
+}
+@media (min-width: 1200px) { 
+	.container {
+		max-width: 1230px;
+	}
+}
+
+@media (max-width: 1199px) { 
+	
+}
+
+@media (max-width: 991px) {
+	
+}
+
+/*Medium devices (tablets, 767px and down)*/
+@media (max-width: 767px) {
+	.blog_wrap {
+		flex-direction: column;
+		align-items: flex-start;
+	}
+
+	.blog_wrap img {
+		width: 100%;
+	}
+
+	.blog_text {
+		padding: 25px 25px 25px 25px;
+	}
+}
+
+/*Small devices (landscape phones, 575px and down)*/
+@media (max-width: 575px) {
+	
+}
+
+
